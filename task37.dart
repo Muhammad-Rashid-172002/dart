@@ -1,6 +1,13 @@
 class testing {
-    print ("this is testing");
+  displayMessage() {
+    print("Hello World!");
+  }
+
+  testing() {
+    displayMessage();
+  }
 }
-void main(){
-    testing obj = testing();
+
+void main() {
+  testing obj = testing();
 }
